@@ -7,3 +7,5 @@ COPY ./flaskapp/requirements.txt ./
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+
+ENTRYPOINT [ "python3", "wsgi.py" ]

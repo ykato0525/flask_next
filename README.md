@@ -1,4 +1,4 @@
-# flask / mext.js / mysqlの開発環境の構築
+# flask / next.js / mysqlの開発環境の構築
 
 ## 参考にした記事
 

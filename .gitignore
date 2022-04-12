@@ -1,0 +1,3 @@
+# フォルダの指定
+./frontend/node_modules/
+.DS_Store

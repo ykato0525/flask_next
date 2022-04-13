@@ -18,9 +18,10 @@ return (
 // この関数はビルド時に呼ばれる
 export async function getStaticProps() {
 // 投稿記事を取得する外部APIエンドポイントをコール
-const res = await fetch('http://app:5000/app/hello');
+const res = await fetch('http://app:5000/blog/');
 const posts = await res.json();
 console.log(posts)
+console.log(res)
 
 // { props: posts }を返すことで、ビルド時にBlogコンポーネントが
 // `posts`をpropとして受け取れる

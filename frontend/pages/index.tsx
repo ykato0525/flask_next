@@ -14,18 +14,18 @@ const Home: NextPage = () => {
       </Head>
       <ul>
         <li>
-          <Link href="/blog/1">
-            <a>ID:1のブログページ</a>
+          <Link href="/note">
+            <a>実験記録</a>
           </Link>
         </li>
         <li>
-          <Link href="/blog/2">
-            <a>ID:2のブログページ</a>
+          <Link href="/analysis">
+            <a>解析用のページ</a>
           </Link>
         </li>
         <li>
-          <Link href="/blog/3">
-            <a>ID:3のブログページ</a>
+          <Link href="/blog/">
+            <a>開発記録</a>
           </Link>
         </li>
       </ul>

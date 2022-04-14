@@ -18,10 +18,18 @@ def index_of_blog():
 
 @app.route("/note/")
 def index_of_note():
+    # 受け取るjsonの構造
+    # タイトル
+    # 日付
+    # 担当者
+    # ノートのファイル
+    # 結果のファイル
     data = {
-        "title":"value1",
-        "content":"value2",
-        "writer":"value3"
+        "title":"〜の感受性試験",
+        "date": "20220413",
+        "name": "kato",
+        "content":"note.pdf",
+        "result":"result.html"
         }
     print("blogにアクセスしました")
     return data 

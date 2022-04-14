@@ -4,16 +4,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
 
+
+
 // function HomePage() {
 function Note({ posts }) {
     console.log(posts);
-    // 記事のレンダー
+    // 受け取るjsonの構造
+    // タイトル
+    // 日付
+    // 担当者
+    // ノートのファイル
+    // 結果のファイル
+
     return (
-        <ul>
-            <li>{posts.title}</li>
-            <li>{posts.content}</li>
-            <li>{posts.writer}</li>
-        </ul>
+       <div>hello world</div>
     );
 }
 
@@ -27,7 +31,9 @@ export async function getStaticProps() {
     // { props: posts }を返すことで、ビルド時にBlogコンポーネントが
     // `posts`をpropとして受け取れる
     return {
-        props: {posts}
+        props: {
+            posts
+        }
     }
 }
 

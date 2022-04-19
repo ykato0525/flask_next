@@ -1,8 +1,6 @@
-// first.md
-
 ---
-id: "1"
-title: "記事1"
+id: "2"
+title: ""
 date: "2021-06-21"
 summary: "記事1の要約"
 ---
